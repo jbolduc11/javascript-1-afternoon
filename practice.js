@@ -16,7 +16,7 @@ let myAge = 8;
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-
+let lovesCode = []
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
