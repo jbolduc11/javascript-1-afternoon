@@ -16,13 +16,13 @@ let myAge = 8;
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-let lovesCode = []
+let lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
-
+let greatestFear = 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
