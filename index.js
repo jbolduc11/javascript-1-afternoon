@@ -1,18 +1,18 @@
 //Nouns adjective and verbs
 // basic data types
-'abc' "abc" 'abc' // strings
-10 //numbers
+//'abc' "abc" 'abc' // strings
+//10 //numbers
     /// ====> Int, Float
-true false //booleans
-null undefined /// no value to them for variables
+//true false //booleans
+//null undefined /// no value to them for variables
 
-NaN /// Not a number
+//NaN /// Not a number
 
-{} // Object nouns
-[] // arrays lists
+//{} // Object nouns
+// [] // arrays lists
 // Jared
-{
-    height: '5'11',
+const jared = {
+    height: 511,
     weight: '180',
     eyeColor: 'Blue',
     age: 35,
@@ -29,7 +29,7 @@ NaN /// Not a number
 }
 
 myFavoriteFoods: ['Pizza', 'Steak', 'Salad'],
-myFamilyMembers: [
+myFamilyMembers=[
     {
         name:'Ashlee',
         age: 31,
@@ -40,4 +40,21 @@ myFamilyMembers: [
         age: 8,
         relationship:'Son'
     }
-]
+],
+
+/// variables
+// var /// es5
+// let // es6 can change what it points to
+// const // es6 can never change the address
+
+
+console.log(jared)  
+
+const myFunc = function() {
+}; //es5
+
+const myOtherFunc = () => {
+
+}; //es6
+
+
