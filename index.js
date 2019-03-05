@@ -50,11 +50,24 @@ myFamilyMembers=[
 
 console.log(jared)  
 
+//const myFunc = function() {
+//}; //es5
+
+//const myOtherFunc = () => {
+
+//}; //es6
+
 const myFunc = function() {
+    const differenceInAge = jared.age - myFamilyMembers[0].age;
+};
+console.log(myFunc());
+console.log(myFamilyMembers[0].age)
+
+
+const add = function(num1, num2) {
+    return num1 + num2 + 10
 }; //es5
 
-const myOtherFunc = () => {
+const myVar = add(1,2);
 
-}; //es6
-
-
+console.log(myVar)
