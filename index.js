@@ -25,10 +25,8 @@ const jared = {
         city: 'Herriman',
             state: 'Utah',
             zipCode: '11111'
-    }
-}
-
-myFavoriteFoods: ['Pizza', 'Steak', 'Salad'],
+    },
+myFavoriteFoods: ['Pizza' ,`Steak` ,`Salad`],
 myFamilyMembers=[
     {
         name:'Ashlee',
@@ -40,7 +38,8 @@ myFamilyMembers=[
         age: 8,
         relationship:'Son'
     }
-],
+]
+
 
 /// variables
 // var /// es5
@@ -71,3 +70,36 @@ const add = function(num1, num2) {
 const myVar = add(1,2);
 
 console.log(myVar)
+
+// function expression   const variable = function() {
+
+//}
+
+//function declaration function myFunc(){
+
+//}
+
+// arrow function  const arrow = () => {}
+
+const arrow = () => {
+    var myVariable = ''
+    function innerFunction() {
+        apple = 3
+    }
+}
+
+const addPositive = function(num1, num2) {
+    if(num1 > num2){
+        return num1 - num2;
+    }else{
+        return num2 - num1
+    }
+}; //es5
+
+// > greater
+// && both have to be tru
+// || either or have to be true
+// === equal to
+// !== not equal to
+
+// function lives in an object it's called a method
