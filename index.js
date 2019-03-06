@@ -46,9 +46,6 @@ myFamilyMembers=[
 // let // es6 can change what it points to
 // const // es6 can never change the address
 
-
-console.log(jared)  
-
 //const myFunc = function() {
 //}; //es5
 
