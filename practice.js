@@ -54,7 +54,7 @@ const newGreeting = function greeting() {}
 //Name it finalGreeting.
 
 //Code Here
-const finalGreeting = greeting() => {}
+const finalGreeting = greeting() => {};
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
@@ -71,10 +71,10 @@ const groceries = ["apples", "milk", "eggs", "bread"];
 
 //Code Here
 const dog = {
-  name: "Jared"
-  color: "Hello"
-  age: 10
-  goodBoy: true
+  name: "Jared",
+  color: "Hello",
+  age: 10,
+  goodBoy: true,
 }
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
@@ -172,7 +172,7 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-const age = 35;
+let age = 35;
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
