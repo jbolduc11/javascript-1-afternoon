@@ -47,7 +47,7 @@ function greeting(name) {
 //Name it newGreeting.
 
 //Code Here
-const newGreeting = function greeting() {}
+const newGreeting = function greeting() {};
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
