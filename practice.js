@@ -47,21 +47,21 @@ function greeting(name) {
 //Name it newGreeting.
 
 //Code Here
-const newGreeting = greeting() {}
+const newGreeting = function greeting() {}
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
 //Code Here
-
+const finalGreeting = greeting() => {}
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-
+const groceries = ["apples", "milk", "eggs", "bread"];
 //////////////////PROBLEM 10////////////////////
 
 //Create an object saved to the variable dog.
@@ -70,12 +70,17 @@ const newGreeting = greeting() {}
 //and goodBoy (a boolean).
 
 //Code Here
-
+const dog = {
+  name: "Jared"
+  color: "Hello"
+  age: 10
+  goodBoy: true
+}
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+const devMountainClassPet = dog.name;
 //////////////////PROBLEM 11////////////////////
 
 //Write a function called nameCheck that takes in a name parameter. 
@@ -86,7 +91,15 @@ const newGreeting = greeting() {}
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
-
+function nameCheck(name) {
+  if (name === `Steven`) {
+    return `What is up Steven`;
+  } if (name === `Bryan`) {
+    return `Hey Bryan!`;
+  } else {
+    return `Cool name,` + name
+  }
+}
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called add that takes in two parameters
@@ -94,12 +107,12 @@ const newGreeting = greeting() {}
 // The add function should return the two parameters added together
 
 //Code Here
-
+function add(num1, num2) {};
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
-
+const mathSum = add(3, 4);
 //////////////////PROBLEM 13////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
@@ -110,7 +123,17 @@ const newGreeting = greeting() {}
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-
+function faveColorFinder(color) {
+  if (color === 'red') {
+    return 'red is great color';
+  }if (color === 'green') {
+    return 'green is a solid favorite color';
+  } if (color === 'black') {
+    return 'so trendy';
+  } else {
+    'you need to evaluate your favorite color choice'
+  }
+}
 //////////////////PROBLEM 14////////////////////
 
 let duck = "cute";
@@ -149,12 +172,13 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-
+const age = 35;
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-
+age++;
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
+age = 999;
