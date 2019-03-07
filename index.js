@@ -197,3 +197,63 @@ const josh = {
   console.log(josh.myFavoriteFoods)
   console.log(josh.myFavoriteFoods[num])
   console.log(josh[name])
+
+
+
+  // arrays
+  // push end of the array
+  // unshift begining of array
+
+  console.log(josh.myFavoriteFoods)
+  josh.myFavoriteFoods.push('tacos')
+  console.log(josh.myFavoriteFoods)
+  josh.myFavoriteFoods.unshift('watermelon')
+  console.log(josh.myFavoriteFoods)
+  josh.myFavoriteFoods[0] = "Chicken Nudgets";
+  console.log(josh.myFavoriteFoods)
+
+  //loops 
+  for
+
+  console.log(josh.myFavoriteFoods);
+console.log(josh.myFavoriteFoods.length);
+
+const doesThisPersonLikePizza = (arr) => {
+    let answer = false;
+    console.log(arr)
+
+    for(let i = 0; i < arr.length; i++){
+
+        console.log(i)
+        if(arr[i] === "Pizza"){
+            answer = true;
+        }
+    }
+
+    return answer;
+}
+
+console.log(doesThisPersonLikePizza(josh.myFavoriteFoods))
+
+
+const doesThisPersonLikePizza2 = (arr) => {
+    let answer = false;
+    console.log(arr)
+    console.log(arr.length)
+
+    let i = 0;
+    
+    while(i < arr.length){
+        console.log(i)
+        if(arr[i] === "Pizza"){
+            answer = true;
+        }
+        i++
+    }
+
+    return answer;
+}
+
+
+console.log(doesThisPersonLikePizza(josh.myFavoriteFoods))
+console.log(doesThisPersonLikePizza2(josh.myFavoriteFoods))
