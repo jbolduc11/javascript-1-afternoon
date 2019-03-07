@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>This is a Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<style>
+    #colorBlock {
+        width: 100px;
+        height: 100px;
+        background: black;
+    }
+</style>
+
+<body>
+    <div id="colorBlock">
+
+    </div>
+
+    <button onclick="changeColor()">Click me to change color</button>
+    <script>
+        //DOM document object model 
+
+        const element = document.getElementById('colorBlock');
+
+        const changeColor = () => {
+
+            element.style.background = "red"
+        }
+
+    </script>
+
+</body>
+
+</html>
