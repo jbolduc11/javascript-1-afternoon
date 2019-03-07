@@ -257,3 +257,58 @@ const doesThisPersonLikePizza2 = (arr) => {
 
 console.log(doesThisPersonLikePizza(josh.myFavoriteFoods))
 console.log(doesThisPersonLikePizza2(josh.myFavoriteFoods))
+
+// array pop used to get rid of last element
+// array shift gets rid of the first one
+
+// push and pop on the back of an array,
+//unshift and shift on the front of an array
+
+//slice perfect copy of the array( first where copy starts, where copy ends)
+//splice to remove stuff out of array (first how many indexs it will remove(start), how many to remove, what to add )
+
+//firstParam = indexToStartAt
+//secondParam = how many things to remove default is everything
+//thirdParam = thing to add
+josh.myFavoriteFoods.splice(0, 0, 'other Thing');
+console.log(josh.myFavoriteFoods)
+
+// Functions call back
+
+const caculate = (num1, num2, operatorFunc) => {
+    num1+=10;
+    num2+=10;
+    const answer = operatorFunc(num1, num2);
+    return answer;
+}
+
+const add = (num1, num2) => {
+    return num1 + num2;
+}
+
+const subtract = (num1, num2) => {
+    return num1 - num2;
+}
+
+const multiply = (num1, num2) => {
+    console.log(num1)
+    return num1 * num2;
+}
+
+const divide = (num1, num2) => {
+    return num1 / num2;
+}
+
+console.log(caculate(3, 3, multiply))
+
+//time call back
+
+const time = () => {
+    console.log('this ran first')
+    const cb = () => {
+        console.log('I waited a second')
+    }
+    setTimeout(cb, 5000)
+}
+
+time()
