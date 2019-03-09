@@ -7,4 +7,5 @@ function firstReverseTry(arr) {
     return arr
   }
   console.log(firstReverseTry([1,2,3,4,5]))
+
   
