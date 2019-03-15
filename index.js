@@ -1,4 +1,4 @@
-// // Nouns adjective and verbs.
+ // // Nouns adjective and verbs.
 
 // ///Basic Data Types
 // 'abc' "abc" `abc` ///strings
